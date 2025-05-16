@@ -1,0 +1,26 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Llave de identificación de la tabla sociodemografica,12,C,LLAVESDE,,010001601101...326080020102
+Llave de identificación de la vivienda,9,C,LLAVEVIV,,010001601...326080020
+Llave de identificación del hogar,10,C,LLAVEHOG,,0100016011...3260800201
+Pregunta PAREN ¿Qué es (NOMBRE) de la (del) jefa(e) del hogar?,1,C,PAREN,paren,1...8
+Pregunta SEXO (NOMBRE) es hombre (NOMBRE) es mujer,1,C,SEXO,sexo,"1,2"
+Pregunta EDAD ¿Cuántos años cumplidos tiene (NOMBRE)?,2,C,EDAD,edad,00...99
+Pregunta P3.6.1 ¿En qué día y mes nació (NOMBRE)?,2,C,P3_6_1,p3_6_1,"01...31,99"
+Pregunta P3.6.2 ¿En qué día y mes nació (NOMBRE)?,2,C,P3_6_2,p3_6_2,"01...12,99"
+Pregunta P3.6.3 ¿En qué día y mes nació (NOMBRE)?,1,C,P3_6_3,p3_6_3,"1,2"
+Pregunta P3.7 ¿(NOMBRE) asiste actualmente a la escuela?,1,C,P3_7,p3_7,"1,2,9"
+Pregunta NIV ¿Hasta qué año o grado aprobó (NOMBRE) en la escuela? - NIVEL,2,C,NIV,niv,"00...11,99"
+Pregunta GRA ¿Hasta qué año o grado aprobó (NOMBRE) en la escuela? - GRADO,1,C,GRA,gra,0...9
+Pregunta P3.9 ¿La semana pasada (NOMBRE)...?,1,C,P3_9,p3_9,1...9
+"Pregunta P3.10 Aunque ya me dijo que (NOMBRE) (CONDICIÓN DE 3.9), ¿la semana pasada...?",1,C,P3_10,p3_10,1...7
+Número de unidad primaria de muestreo,7,C,UPM,,0100016...3260800
+Número de vivienda seleccionada,2,C,VIV_SEL,,01...24
+Número de hogar de la vivienda,1,C,HOGAR,,1...5
+Numero de renglón,2,C,N_REN,,01...19
+Entidad,2,C,ENT,ent,01...32
+Municipio,3,C,MUN,,001...565
+Tamaño de localidad,1,C,TLOC,tloc,1...4
+Región,1,C,REGION,region,1...4
+Factor de expansión de hogar,5,C,FAC_HOG,,126...72801
+Upm de diseño muestral,5,C,UPM_DIS,,00001...02918
+Estrato de diseño muestral,4,C,EST_DIS,,0001...0277

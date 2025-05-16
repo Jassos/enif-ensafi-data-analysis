@@ -1,0 +1,254 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Llave de identificación de la persona elegida,12,C,LLAVEMOD,,010001601101...326080020102
+Llave de identificación de la vivienda,9,C,LLAVEVIV,,010001601...326080020
+Llave de identificación del hogar,10,C,LLAVEHOG,,0100016011...3260800201
+Verificación de edad de la persona elegida,2,C,EDAD_V,edad_v,"18...95,97,98"
+Pregunta FILTRO.S5.1 ¿La persona informante del hogar es la elegida? (3.1 y 3.6 = 1),1,C,FILTRO_S5_1,filtro_s5_1,"1,2"
+Pregunta P5.1 ¿Usted habla algún dialecto o lengua indígena?,1,C,P5_1,p5_1,"1,2"
+"Pregunta P5.2.1 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para ver, aun usando lentes?",1,C,P5_2_1,p5_2_1,"1...4,9"
+"Pregunta P5.2.2 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para oír, aun usando aparato auditivo?",1,C,P5_2_2,p5_2_2,"1...4,9"
+"Pregunta P5.2.3 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para mover o usar sus brazos o manos?",1,C,P5_2_3,p5_2_3,"1...4,9"
+"Pregunta P5.2.4 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para caminar, subir o bajar usando sus piernas?",1,C,P5_2_4,p5_2_4,"1...4,9"
+"Pregunta P5.2.5 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para recordar o concentrarse?",1,C,P5_2_5,p5_2_5,"1...4,9"
+"Pregunta P5.2.6 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para bañarse, vestirse o comer?",1,C,P5_2_6,p5_2_6,"1...4,9"
+"Pregunta P5.2.7 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para hablar o comunicarse (por ejemplo, entender o ser entendido por otros)?",1,C,P5_2_7,p5_2_7,"1...4,9"
+"Pregunta P5.2.8 (Entregue la tarjeta 2). En su vida diaria, ¿usted cuánta dificultad tiene para realizar sus actividades diarias por problemas emocionales o mentales (con autonomía e independencia)? Problemas como autismo, depresión, bipolaridad, esquizofrenia, etcétera",1,C,P5_2_8,p5_2_8,"1...4,9"
+Pregunta P5.3 ¿Actualmente usted...?,1,C,P5_3,p5_3,1...6
+Pregunta P5.4 ¿Su cónyuge o pareja forma parte de este hogar?,1,C,P5_4,p5_4,"1,2"
+Pregunta P5.4A ¿Quién es su pareja o cónyuge?,2,C,P5_4A,,01...13
+"Pregunta P5.5 Por sus costumbres y tradiciones, ¿usted se considera indígena?",1,C,P5_5,p5_5,"1,2,9"
+Pregunta P5.6 ¿Se considera indígena principalmente...?,1,C,P5_6,p5_6,1...8
+"Pregunta P5.7 Considerando hijastras(os), hijas(os) adoptivas(os) o reconocidas(os), y a las(los) propias(os), ¿usted tiene hijas o hijos?",1,C,P5_7,p5_7,"1,2,9"
+Pregunta P5.8 ¿Cuántas de sus hijas o hijos son dependientes económicos dentro del hogar?,2,C,P5_8,p5_8,"00...08,99"
+Pregunta P5.9.1 ¿Tiene hijas o hijos fuera del hogar que sean sus dependientes económicos?,1,C,P5_9_1,p5_9_1,"1,2"
+Pregunta P5.9.2 ¿Cuántos?,2,C,P5_9_2,,01...08
+"Pregunta P5.10.1 ¿Tiene alguna (otra) persona que dependa económicamente de usted, como cónyuge o pareja, padres, suegros, nietas, nietos, entre otras, vivan o no en el hogar?",1,C,P5_10_1,p5_10_1,"1,2"
+Pregunta P5.10.2 ¿Cuántas?,2,C,P5_10_2,,01...15
+"Pregunta P5.11 ¿Usted recibe algún apoyo económico o programa Bienestar de gobierno como: personas adultas mayores, Beca Benito Juárez, Jóvenes Construyendo el Futuro, entre otros?",1,C,P5_11,p5_11,"1,2"
+Pregunta FILTRO.S5.2 ¿En la vivienda vive la persona que es dueña o propietaria? (1.5 = 1),1,C,FILTRO_S5_2,filtro_s5_2,"1,2"
+Pregunta P5.12 ¿Es usted la persona dueña de esta vivienda?,1,C,P5_12,p5_12,"1,2,9"
+Pregunta FILTRO.S5.3 ¿La vivienda es rentada o la están pagando? (1.5 = 2) o (1.9 = 2),1,C,FILTRO_S5_3,filtro_s5_3,"1,2"
+Pregunta P5.13 ¿Es usted la persona responsable de aportar el dinero para pagar la renta o el crédito de esta vivienda?,1,C,P5_13,p5_13,1...3
+Pregunta P5.14 ¿La semana pasada usted...?,1,C,P5_14,p5_14,1...9
+"Pregunta P5.15 En total, ¿cuánto tiempo lleva buscando trabajo (haciendo gestiones o trámites para iniciar un negocio)?",1,C,P5_15,p5_15,1...6
+"Pregunta P5.16 Aunque ya me dijo que usted (CONDICIÓN DE 5.14), ¿la semana pasada...?",1,C,P5_16,p5_16,1...7
+"Pregunta P5.17 En ese trabajo (actividad) de la semana pasada, ¿usted fue...?",1,C,P5_17,p5_17,1...6
+"Pregunta P5.18.1 Por parte de su trabajo, ¿usted cuenta con servicio médico (IMSS, ISSSTE, PEMEX u otro)?",1,C,P5_18_1,p5_18_1,"1,2,9"
+"Pregunta P5.18.2 Por parte de su trabajo, ¿usted cuenta con seguro privado para gastos médicos?",1,C,P5_18_2,p5_18_2,"1,2,9"
+"Pregunta P5.18.3 Por parte de su trabajo, ¿usted cuenta con crédito para vivienda (INFONAVIT, FOVISSSTE)?",1,C,P5_18_3,p5_18_3,"1,2,9"
+"Pregunta P5.18.4 Por parte de su trabajo, ¿usted cuenta con fondo de retiro (SAR o AFORE)?",1,C,P5_18_4,p5_18_4,"1,2,9"
+"Pregunta P5.18.5 Por parte de su trabajo, ¿usted cuenta con vacaciones con goce de sueldo?",1,C,P5_18_5,p5_18_5,"1,2,9"
+"Pregunta P5.18.6 Por parte de su trabajo, ¿usted cuenta con préstamos personales y/o caja de ahorro?",1,C,P5_18_6,p5_18_6,"1,2,9"
+"Pregunta P5.18.7 Por parte de su trabajo, ¿usted cuenta con licencia para cuidados maternos o paternos?",1,C,P5_18_7,p5_18_7,"1,2,9"
+Pregunta P5.19 ¿Cuánto gana o recibe usted por trabajar (su actividad)?,5,C,P5_19,p5_19,"00000,00050...92000,98000,99999"
+Pregunta P5.19A ¿Cada cuándo?,1,C,P5_19A,p5_19a,1...4
+Pregunta P5.20 ¿Este ingreso es...?,1,C,P5_20,p5_20,"1,2"
+Pregunta FILTRO.S5.3.1 ¿La persona elegida tiene código 8 en 5.14 o código 7 en 5.16? (5.14=8 o 5.16=7),1,C,FILTRO_S5_3_1,filtro_s5_3_1,"1,2"
+"Pregunta P5.21 Considerando todos sus gastos en alimentación, transporte, vivienda, pago de servicios, entretenimiento, ropa, calzado, entre otros, ¿cuál es su gasto mensual?",5,C,P5_21,p5_21,"00000,00200...90000,98000,99999"
+"Pregunta P5.22 En su opinión, ¿de cuánto debería ser su ingreso mensual suficiente para cubrir todos sus gastos?",6,C,P5_22,p5_22,"000200...500000,980000,999888,999999"
+"Pregunta FILTRO.S5.4 ¿La persona es población no ocupada (5.14 = (3, 4, 5, 6, 7, 8 O 9) y 5.16 = 7)?",1,C,FILTRO_S5_4,filtro_s5_4,"1,2"
+"Pregunta P5.23.1 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE LA PAREJA O CÓNYUGE",1,C,P5_23_1,p5_23_1,"0,1"
+"Pregunta P5.23.2 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DEL PADRE, MADRE O TUTORES",1,C,P5_23_2,p5_23_2,"0,1"
+"Pregunta P5.23.3 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE OTROS FAMILIARES O DE AMISTADES",1,C,P5_23_3,p5_23_3,"0,1"
+"Pregunta P5.23.4 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE PENSIÓN O JUBILACIÓN POR TRABAJO O INVALIDEZ",1,C,P5_23_4,p5_23_4,"0,1"
+"Pregunta P5.23.5 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - RECIBE APOYOS DE PROGRAMAS DE GOBIERNO (PERSONAS ADULTAS MAYORES, BECA BENITO JUÁREZ, JÓVENES CONSTRUYENDO EL FUTURO, ETCÉTERA)",1,C,P5_23_5,p5_23_5,"0,1"
+"Pregunta P5.23.6 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE SUS AHORROS O INVERSIONES",1,C,P5_23_6,p5_23_6,"0,1"
+"Pregunta P5.23.7 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE LA RENTA DE BIENES (CASA, LOCAL, TERRENO, VEHÍCULO, NEGOCIO, ETCÉTERA)",1,C,P5_23_7,p5_23_7,"0,1"
+"Pregunta P5.23.8 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - DE UNA BECA (EXCLUYA LAS BECAS DE PROGRAMAS DE APOYOS DE GOBIERNO)",1,C,P5_23_8,p5_23_8,"0,1"
+"Pregunta P5.23.9 Usted dijo que no trabaja ni recibe ingresos por otra actividad, ¿de dónde obtiene el dinero o recursos que usa para todos sus gastos (transporte, alimentación, etcétera)? - OTRA FUENTE",1,C,P5_23_9,p5_23_9,"0,1"
+"Pregunta P6.1.1 Actualmente, ¿usted ahorra prestando dinero?",1,C,P6_1_1,p6_1_1,"1,2"
+"Pregunta P6.1.2 Actualmente, ¿usted ahorra comprando propiedades, animales u otros bienes?",1,C,P6_1_2,p6_1_2,"1,2"
+"Pregunta P6.1.3 Actualmente, ¿usted tiene dinero guardado en una caja de ahorro del trabajo o de personas conocidas?",1,C,P6_1_3,p6_1_3,"1,2"
+"Pregunta P6.1.4 Actualmente, ¿usted tiene dinero guardado con familiares o personas conocidas?",1,C,P6_1_4,p6_1_4,"1,2"
+"Pregunta P6.1.5 Actualmente, ¿usted participa en una tanda?",1,C,P6_1_5,p6_1_5,"1,2"
+"Pregunta P6.1.6 Actualmente, ¿usted ahorra dinero en su casa?",1,C,P6_1_6,p6_1_6,"1,2"
+Pregunta P6.2.01 ¿Usted tiene cuenta o tarjeta de nómina (donde depositan su sueldo)?,1,C,P6_2_01,p6_2_01,"1,2"
+Pregunta P6.2.02 ¿Usted tiene cuenta o tarjeta de pensión (donde depositan su pensión)?,1,C,P6_2_02,p6_2_02,"1,2"
+Pregunta P6.2.03 ¿Usted tiene cuenta o tarjeta para recibir apoyos de gobierno (donde le depositan su apoyo de gobierno)?,1,C,P6_2_03,p6_2_03,"1,2"
+Pregunta P6.2.04 ¿Usted tiene cuenta de ahorro?,1,C,P6_2_04,p6_2_04,"1,2"
+Pregunta P6.2.05 ¿Usted tiene cuenta de cheques?,1,C,P6_2_05,p6_2_05,"1,2"
+Pregunta P6.2.06 ¿Usted tiene CETES o depósito a plazo fijo (solo puede retirar en determinadas fechas)?,1,C,P6_2_06,p6_2_06,"1,2"
+Pregunta P6.2.07 ¿Usted tiene fondo de inversión (tener acciones en casa de bolsa)?,1,C,P6_2_07,p6_2_07,"1,2"
+Pregunta P6.2.08 ¿Usted tiene cuenta contratada por internet o aplicación como Mercado Pago o Albo?,1,C,P6_2_08,p6_2_08,"1,2"
+"Pregunta P6.2.09 ¿Usted tiene algún seguro de vida, gastos médicos, auto, casa, plan privado de retiro (no Afore), entre otros?",1,C,P6_2_09,p6_2_09,"1,2"
+Pregunta P6.2.10 ¿Usted tiene cuenta de ahorro para el retiro o Afore?,1,C,P6_2_10,p6_2_10,"1,2"
+"Pregunta P6.3 Actualmente, ¿usted tiene ahorros en alguna de esas cuentas que mencionó?",1,C,P6_3,p6_3,"1,2"
+Pregunta FILTRO.S6.1 ¿La persona tiene al menos un código 1 en 6.1 o 6.3?,1,C,FILTRO_S6_1,filtro_s6_1,"1,2"
+"Pregunta P6.4 Actualmente, el dinero de todo lo que guarda o ahorra, ¿es igual a lo que usted gana o recibe...?",1,C,P6_4,p6_4,"1...5,9"
+"Pregunta P6.5.1 Actualmente, ¿usted tiene alguna deuda en una caja de ahorro del trabajo o de personas conocidas?",1,C,P6_5_1,p6_5_1,"1,2"
+"Pregunta P6.5.2 Actualmente, ¿usted tiene alguna deuda en una casa de empeño?",1,C,P6_5_2,p6_5_2,"1,2"
+"Pregunta P6.5.3 Actualmente, ¿usted tiene alguna deuda con sus amistades o personas conocidas?",1,C,P6_5_3,p6_5_3,"1,2"
+"Pregunta P6.5.4 Actualmente, ¿usted tiene alguna deuda con sus familiares?",1,C,P6_5_4,p6_5_4,"1,2"
+"Pregunta P6.5.5 Actualmente, ¿usted tiene alguna otra deuda?",1,C,P6_5_5,p6_5_5,"1,2"
+Pregunta P6.6.1 ¿Usted tiene tarjeta de crédito departamental o de tienda de autoservicio?,1,C,P6_6_1,p6_6_1,"1,2"
+Pregunta P6.6.2 ¿Usted tiene tarjeta de crédito de banco?,1,C,P6_6_2,p6_6_2,"1,2"
+Pregunta P6.6.3 ¿Usted tiene crédito de nómina?,1,C,P6_6_3,p6_6_3,"1,2"
+Pregunta P6.6.4 ¿Usted tiene crédito personal?,1,C,P6_6_4,p6_6_4,"1,2"
+Pregunta P6.6.5 ¿Usted tiene crédito automotriz?,1,C,P6_6_5,p6_6_5,"1,2"
+"Pregunta P6.6.6 ¿Usted tiene crédito de vivienda como INFONAVIT, FOVISSSTE, banco u otra institución?",1,C,P6_6_6,p6_6_6,"1,2"
+"Pregunta P6.6.7 ¿Usted tiene crédito grupal, comunal o solidario (como el de Compartamos)?",1,C,P6_6_7,p6_6_7,"1,2"
+"Pregunta P6.6.8 ¿Usted tiene crédito contratado por internet o aplicación como Prestadero, Doopla o Play Business?",1,C,P6_6_8,p6_6_8,"1,2"
+Pregunta P6.6.9 ¿Usted tiene otro?,1,C,P6_6_9,p6_6_9,"1,2"
+Pregunta FILTRO.S6.2 ¿La persona tiene al menos un código 1 en 6.5 o 6.6?,1,C,FILTRO_S6_2,filtro_s6_2,"1,2"
+Pregunta P6.7 ¿Usted se ha atrasado en el pago de uno de estos préstamos o créditos?,1,C,P6_7,p6_7,"1,2"
+"Pregunta P6.8 Tomando en cuenta todas sus deudas, ¿considera que lo que debe es...?",1,C,P6_8,p6_8,"1...5,9"
+"Pregunta P6.9 Durante el último mes, ¿lo que ganó o recibió fue suficiente para cubrir sus gastos sin endeudarse?",1,C,P6_9,p6_9,"1,2"
+"Pregunta P6.10.1 Durante el último mes, para cubrir sus gastos, ¿usted pidió prestado a familiares o amistades?",1,C,P6_10_1,p6_10_1,"1,2"
+"Pregunta P6.10.2 Durante el último mes, para cubrir sus gastos, ¿usted utilizó el dinero que tenía ahorrado?",1,C,P6_10_2,p6_10_2,"1,2"
+"Pregunta P6.10.3 Durante el último mes, para cubrir sus gastos, ¿usted redujo sus gastos?",1,C,P6_10_3,p6_10_3,"1,2"
+"Pregunta P6.10.4 Durante el último mes, para cubrir sus gastos, ¿usted vendió o empeñó algún bien?",1,C,P6_10_4,p6_10_4,"1,2"
+"Pregunta P6.10.5 Durante el último mes, para cubrir sus gastos, ¿usted solicitó un adelanto salarial, trabajó horas extras o hizo trabajo temporal?",1,C,P6_10_5,p6_10_5,"1,2"
+"Pregunta P6.10.6 Durante el último mes, para cubrir sus gastos, ¿usted utilizó su tarjeta de crédito o solicitó un crédito en un banco, institución financiera o de tienda departamental?",1,C,P6_10_6,p6_10_6,"1,2"
+"Pregunta P6.10.7 Durante el último mes, para cubrir sus gastos, ¿usted se atrasó en el pago de algún crédito o préstamo?",1,C,P6_10_7,p6_10_7,"1,2"
+"Pregunta P6.10.8 Durante el último mes, para cubrir sus gastos, ¿usted pidió prestado a cajas de ahorro, prestamistas o agiotistas?",1,C,P6_10_8,p6_10_8,"1,2"
+"Pregunta P6.11.1 Durante el último mes, ¿usted cambió los productos que compraba por otros de mayor precio o que no compraba?",1,C,P6_11_1,p6_11_1,"1,2"
+"Pregunta P6.11.2 Durante el último mes, ¿usted ahorró o aumentó sus ahorros?",1,C,P6_11_2,p6_11_2,"1,2"
+"Pregunta P6.11.3 Durante el último mes, ¿usted pudo realizar compras que tenía pendientes o darse gustos?",1,C,P6_11_3,p6_11_3,"1,2"
+"Pregunta P6.11.4 Durante el último mes, ¿usted pagó deudas o adelantó pagos?",1,C,P6_11_4,p6_11_4,"1,2"
+"Pregunta P6.11.5 Durante el último mes, ¿usted realizó alguna inversión (dinero a plazos, compra de un bien, para poner un negocio)?",1,C,P6_11_5,p6_11_5,"1,2"
+"Pregunta P6.12 ¿Cuál es el monto máximo con el que podría endeudarse sin afectar su patrimonio? Piense en alguna necesidad como comprar una casa, automóvil, ropa, irse de viaje, entre otras",8,C,P6_12,p6_12,"00000000...09800000,98000000,99999888,99999999"
+"Pregunta P6.13 Ahora dígame, ¿cuál podría ser el monto máximo mensual en deudas que usted podría pagar sin afectar su patrimonio?",6,C,P6_13,p6_13,"000000...300000,980000,999888,999999"
+Pregunta P7.1 ¿Usted lleva un registro de sus ingresos y gastos?,1,C,P7_1,p7_1,"1,2"
+Pregunta P7.2.1 ¿Usted hace anotaciones de los gastos?,1,C,P7_2_1,p7_2_1,"1,2"
+Pregunta P7.2.2 ¿Usted mantiene el dinero para pagos o deudas separados del dinero del gasto diario?,1,C,P7_2_2,p7_2_2,"1,2"
+Pregunta P7.2.3 ¿Usted lleva un registro de recibos o deudas pendientes para recordar pagarlas?,1,C,P7_2_3,p7_2_3,"1,2"
+Pregunta P7.2.4 ¿Usted usa una aplicación o herramienta digital para administrar dinero o gastos?,1,C,P7_2_4,p7_2_4,"1,2"
+"Pregunta P7.3 ¿Considera que cumple con su registro de ingresos, gastos o deudas?",1,C,P7_3,p7_3,"1,2"
+"Pregunta P7.4 Vea la Tarjeta 3. En una escala del 0 al 10, donde 0 significa que No cumple con nada y 10 que Cumple con todo, ¿qué tanto cumple con lo planeado en su registro de ingresos, gastos o deudas?",2,C,P7_4,,00...10
+Pregunta P7.5.1 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - NO NECESITA HACER UN REGISTRO,1,C,P7_5_1,p7_5_1,"0,1"
+Pregunta P7.5.2 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - NO TIENE TIEMPO,1,C,P7_5_2,p7_5_2,"0,1"
+Pregunta P7.5.3 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - LE PARECE ABURRIDO,1,C,P7_5_3,p7_5_3,"0,1"
+Pregunta P7.5.4 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - NO LO HABÍA PENSADO,1,C,P7_5_4,p7_5_4,"0,1"
+Pregunta P7.5.5 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - NO SABE COMO HACERLO,1,C,P7_5_5,p7_5_5,"0,1"
+Pregunta P7.5.6 ¿Por qué no tiene anotaciones o registro de sus ingresos y gastos? - OTRO MOTIVO,1,C,P7_5_6,p7_5_6,"0,1"
+"Pregunta P7.6.1 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con sus ahorros?",1,C,P7_6_1,p7_6_1,"1,2"
+"Pregunta P7.6.2 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con un adelanto de su sueldo?",1,C,P7_6_2,p7_6_2,"1,2"
+"Pregunta P7.6.3 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con la venta o empeño de algún bien?",1,C,P7_6_3,p7_6_3,"1,2"
+"Pregunta P7.6.4 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con el préstamo de familiares o amistades?",1,C,P7_6_4,p7_6_4,"1,2"
+"Pregunta P7.6.5 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con su tarjeta de crédito o con crédito de una institución financiera?",1,C,P7_6_5,p7_6_5,"1,2"
+"Pregunta P7.6.6 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con un trabajo temporal o la venta de algún producto?",1,C,P7_6_6,p7_6_6,"1,2"
+"Pregunta P7.6.7 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con un préstamo de agiotistas o prestamistas?",1,C,P7_6_7,p7_6_7,"1,2"
+"Pregunta P7.6.8 Si hoy tuviera una urgencia económica igual a lo que gana o recibe en un mes, ¿usted podría pagarla con otra forma?",1,C,P7_6_8,p7_6_8,"1,2"
+"Pregunta P7.7.1 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia puede comprar un regalo sin que sea un problema para sus finanzas?",1,C,P7_7_1,p7_7_1,1...5
+"Pregunta P7.7.2 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia le sobra dinero al final del mes?",1,C,P7_7_2,p7_7_2,1...5
+"Pregunta P7.7.3 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia paga sus cuentas a tiempo?",1,C,P7_7_3,p7_7_3,1...5
+"Pregunta P7.7.4 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia siente que puede manejar sus finanzas sin problema?",1,C,P7_7_4,p7_7_4,1...5
+"Pregunta P7.7.5 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia se queda corta(o) de dinero porque gasta de más?",1,C,P7_7_5,p7_7_5,1...5
+"Pregunta P7.7.6 (En caso necesario, entregue tarjetero). Vea la Tarjeta 4. ¿Con qué frecuencia compra cosas a pesar de no poder pagarlas?",1,C,P7_7_6,p7_7_6,1...5
+"Pregunta P7.8.1 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Puede hacer frente a un gasto imprevisto importante",1,C,P7_8_1,p7_8_1,1...5
+"Pregunta P7.8.2 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Está asegurando su futuro financiero",1,C,P7_8_2,p7_8_2,1...5
+"Pregunta P7.8.3 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Dada su situación financiera, siente que tendrá las cosas que desea",1,C,P7_8_3,p7_8_3,1...5
+"Pregunta P7.8.4 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Puede disfrutar la vida debido a la manera en que maneja su dinero",1,C,P7_8_4,p7_8_4,1...5
+"Pregunta P7.8.5 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Le alcanza bien el dinero para cubrir sus gastos",1,C,P7_8_5,p7_8_5,1...5
+"Pregunta P7.8.6 Vea la Tarjeta 5. Ahora, usted me responderá en qué medida le describen las siguientes frases. Se siente tranquila(o) de que su dinero ahorrado sea suficiente",1,C,P7_8_6,p7_8_6,1...5
+"Pregunta P7.9.1 Vea la Tarjeta 6. Dígame, ¿qué tanto confía en su habilidad para administrar su dinero día con día?",1,C,P7_9_1,p7_9_1,1...4
+"Pregunta P7.9.2 Vea la Tarjeta 6. Dígame, ¿qué tanto confía en su habilidad para planificar su futuro financiero?",1,C,P7_9_2,p7_9_2,1...4
+"Pregunta P7.9.3 Vea la Tarjeta 6. Dígame, ¿qué tanto confía en su habilidad para tomar decisiones sobre productos de bancos o instituciones financieras?",1,C,P7_9_3,p7_9_3,1...4
+Pregunta P7.10.01 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - PUEDE CONTROLAR BASTANTE BIEN LO QUE SUCEDE EN SU VIDA,1,C,P7_10_01,p7_10_01,1...4
+"Pregunta P7.10.02 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - CUANDO HACE PLANES, HACE TODO LO POSIBLE PARA TENER ÉXITO",1,C,P7_10_02,p7_10_02,1...4
+Pregunta P7.10.03 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - VIVE MÁS PARA EL HOY QUE PARA EL MAÑANA,1,C,P7_10_03,p7_10_03,1...4
+Pregunta P7.10.04 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - SU FUTURO SE ARREGLARÁ SOLO,1,C,P7_10_04,p7_10_04,1...4
+Pregunta P7.10.05 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - CON FRECUENCIA HACE COSAS SIN PENSARLAS MUCHO,1,C,P7_10_05,p7_10_05,1...4
+Pregunta P7.10.06 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - SE DEJA LLEVAR POR SUS EMOCIONES,1,C,P7_10_06,p7_10_06,1...4
+"Pregunta P7.10.07 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - CUANDO TIENE QUE TOMAR UNA DECISIÓN DIFÍCIL, TIENDE A DEJARLA PARA OTRO DÍA",1,C,P7_10_07,p7_10_07,1...4
+"Pregunta P7.10.08 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - LE CUESTA DEJAR SUS MALOS HÁBITOS (LLEGAR TARDE, TOMAR, FUMAR, COMER POCO SALUDABLE)",1,C,P7_10_08,p7_10_08,1...4
+Pregunta P7.10.09 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - CREE QUE CONSEGUIRÁ LAS PRINCIPALES METAS DE SU VIDA,1,C,P7_10_09,p7_10_09,1...4
+Pregunta P7.10.10 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - LE OCURREN MÁS COSAS BUENAS QUE MALAS,1,C,P7_10_10,p7_10_10,1...4
+Pregunta P7.10.11 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - TIENE CONFIANZA EN SUPERAR SUS PROBLEMAS,1,C,P7_10_11,p7_10_11,1...4
+Pregunta P7.10.12 Vea la Tarjeta 6. ¿Qué tan de acuerdo está con las siguientes afirmaciones? - PIENSA QUE TODO SALDRÁ MAL,1,C,P7_10_12,p7_10_12,1...4
+Pregunta P7.11.1 Vea la Tarjeta 4. Le voy a leer algunas preguntas. ¿Con qué frecuencia prefiere comprar a crédito que comprar de contado?,1,C,P7_11_1,p7_11_1,1...5
+"Pregunta P7.11.2 Vea la Tarjeta 4. Le voy a leer algunas preguntas. ¿Con qué frecuencia prefiere gastar el dinero que tiene, que ahorrarlo para gastos inesperados?",1,C,P7_11_2,p7_11_2,1...5
+Pregunta P7.11.3 Vea la Tarjeta 4. Le voy a leer algunas preguntas. ¿Con qué frecuencia le parece más satisfactorio gastar que ahorrar el dinero?,1,C,P7_11_3,p7_11_3,1...5
+Pregunta P7.11.4 Vea la Tarjeta 4. Le voy a leer algunas preguntas. ¿Con qué frecuencia usted decide comprar más que ahorrar?,1,C,P7_11_4,p7_11_4,1...5
+"Pregunta P7.12.1 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. Cuando usted era niña(o), ¿sus padres o tutores hablaban sobre la importancia del manejo adecuado del dinero?",1,C,P7_12_1,p7_12_1,1...3
+"Pregunta P7.12.2 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. Cuando usted era niña(o), ¿sus padres o tutores hablaban sobre la importancia del ahorro?",1,C,P7_12_2,p7_12_2,1...3
+"Pregunta P7.12.3 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. Cuando usted era niña(o), en su escuela ¿había alguna actividad que le enseñara cómo manejar el dinero?",1,C,P7_12_3,p7_12_3,1...3
+"Pregunta P7.12.4 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. En la adolescencia, sus padres o tutores ¿le daban dinero (mesada) para sus gastos y usted los administraba?",1,C,P7_12_4,p7_12_4,1...3
+"Pregunta P7.12.5 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. En la adolescencia, sus padres o tutores ¿le hablaron sobre gastos necesarios e innecesarios?",1,C,P7_12_5,p7_12_5,1...3
+"Pregunta P7.12.6 Las siguientes preguntas están relacionadas con el entorno financiero a lo largo de su vida. Responda sí o no. En algún momento de su vida, ¿ha recibido algún curso para el registro de sus ingresos y gastos?",1,C,P7_12_6,p7_12_6,1...3
+Pregunta P8.1.1 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por pedir un préstamo?,1,C,P8_1_1,p8_1_1,1...4
+Pregunta P8.1.2 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por gastar más de lo que tenía planeado?,1,C,P8_1_2,p8_1_2,1...4
+Pregunta P8.1.3 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por que las deudas se acumulen?,1,C,P8_1_3,p8_1_3,1...4
+Pregunta P8.1.4 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por que el dinero sea insuficiente para sus actividades de entretenimiento?,1,C,P8_1_4,p8_1_4,1...4
+"Pregunta P8.1.5 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por tener que gastar dinero en imprevistos (enfermedades, accidentes, reparación de vehículo)?",1,C,P8_1_5,p8_1_5,1...4
+Pregunta P8.1.6 Vea la Tarjeta 7. ¿Qué tanta preocupación siente actualmente por la dificultad de guardar dinero para metas futuras?,1,C,P8_1_6,p8_1_6,1...4
+"Pregunta P8.2.1 Ahora responda sí o no. De octubre 2022 a la fecha, ¿se ha sentido ansiosa(o) por sus finanzas personales?",1,C,P8_2_1,p8_2_1,"1,2"
+"Pregunta P8.2.2 Ahora responda sí o no. De octubre 2022 a la fecha, ¿se ha sentido triste por su situación financiera?",1,C,P8_2_2,p8_2_2,"1,2"
+"Pregunta P8.2.3 Ahora responda sí o no. De octubre 2022 a la fecha, ¿se ha sentido irritada(o) debido a su situación financiera?",1,C,P8_2_3,p8_2_3,"1,2"
+"Pregunta P8.2.4 Ahora responda sí o no. De octubre 2022 a la fecha, ¿se ha sentido frustrada(o) por sus finanzas personales?",1,C,P8_2_4,p8_2_4,"1,2"
+"Pregunta P8.3.01 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera dolores de cabeza?",1,C,P8_3_01,p8_3_01,"1,2"
+"Pregunta P8.3.02 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera gastritis o colitis?",1,C,P8_3_02,p8_3_02,"1,2"
+"Pregunta P8.3.03 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera cambios en la presión arterial?",1,C,P8_3_03,p8_3_03,"1,2"
+"Pregunta P8.3.04 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera falta de sueño?",1,C,P8_3_04,p8_3_04,"1,2"
+"Pregunta P8.3.05 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera problemas alimenticios?",1,C,P8_3_05,p8_3_05,"1,2"
+"Pregunta P8.3.06 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera inicio o incremento en el consumo de alcohol o tabaco?",1,C,P8_3_06,p8_3_06,"1,2"
+"Pregunta P8.3.07 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera aislamiento o problemas con amistades?",1,C,P8_3_07,p8_3_07,"1,2"
+"Pregunta P8.3.08 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera aislamiento o problemas con familiares?",1,C,P8_3_08,p8_3_08,"1,2"
+"Pregunta P8.3.09 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera problemas en su trabajo?",1,C,P8_3_09,p8_3_09,"1,2"
+"Pregunta P8.3.10 De octubre 2022 a la fecha, ¿ha sufrido a causa de su situación financiera otro problema?",1,C,P8_3_10,p8_3_10,"1,2"
+"Pregunta P8.4 Vea la Tarjeta 3. En una escala del 0 al 10, donde 0 significa Nada de preocupación y 10 Preocupación excesiva, ¿cuál es su nivel actual de preocupación por su situación financiera?",2,C,P8_4,,00...10
+Pregunta P8.5.1 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - DEUDAS CON FAMILIARES O AMIGOS,1,C,P8_5_1,p8_5_1,"0,1"
+"Pregunta P8.5.2 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - DEUDAS CON BANCOS O INSTITUCIONES FINANCIERAS (TARJETAS DE CRÉDITO, CAJAS DE AHORRO)",1,C,P8_5_2,p8_5_2,"0,1"
+"Pregunta P8.5.3 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - GASTOS INESPERADOS (POR ENFERMEDAD, ACCIDENTE, REPARACIONES)",1,C,P8_5_3,p8_5_3,"0,1"
+Pregunta P8.5.4 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - GASTOS ESCOLARES,1,C,P8_5_4,p8_5_4,"0,1"
+Pregunta P8.5.5 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - PAGOS DE ALIMENTACIÓN,1,C,P8_5_5,p8_5_5,"0,1"
+"Pregunta P8.5.6 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - GASTOS PARA ENTRETENIMIENTO COMO CINE, COMER FUERA, ETCÉTERA",1,C,P8_5_6,p8_5_6,"0,1"
+Pregunta P8.5.7 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - OTRA PREOCUPACIÓN,1,C,P8_5_7,p8_5_7,"0,1"
+Pregunta P8.5.8 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - NO TIENE PREOCUPACIÓN,1,C,P8_5_8,p8_5_8,"0,1"
+"Pregunta P8.5.9 ¿Cuáles son actualmente sus principales preocupaciones respecto a su situación financiera? - EMPLEO, NEGOCIO E INGRESOS INSUFICIENTES",1,C,P8_5_9,p8_5_9,"0,1"
+Pregunta P8.6.01 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - PEDIR UN PRÉSTAMO A FAMILIARES O AMISTADES,1,C,P8_6_01,p8_6_01,"0,1"
+Pregunta P8.6.02 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - SOLICITAR UN CRÉDITO EN UN BANCO O INSTITUCIÓN FINANCIERA,1,C,P8_6_02,p8_6_02,"0,1"
+Pregunta P8.6.03 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - RETRASAR O DEJAR PENDIENTE ALGÚN PAGO,1,C,P8_6_03,p8_6_03,"0,1"
+Pregunta P8.6.04 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - SOLICITAR APOYOS DE GOBIERNO,1,C,P8_6_04,p8_6_04,"0,1"
+Pregunta P8.6.05 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - SOLICITAR RENEGOCIACIÓN O DESCUENTO PARA PAGO O DEUDA,1,C,P8_6_05,p8_6_05,"0,1"
+Pregunta P8.6.06 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - VENDER O EMPEÑAR ALGÚN BIEN,1,C,P8_6_06,p8_6_06,"0,1"
+Pregunta P8.6.07 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - USAR SUS AHORROS,1,C,P8_6_07,p8_6_07,"0,1"
+Pregunta P8.6.08 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - TRABAJAR HORAS EXTRAS O CONSEGUIR TRABAJO ADICIONAL,1,C,P8_6_08,p8_6_08,"0,1"
+Pregunta P8.6.09 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - CAMBIAR DE TRABAJO O EMPRENDER UN NEGOCIO,1,C,P8_6_09,p8_6_09,"0,1"
+Pregunta P8.6.10 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - REDUCIR SUS GASTOS,1,C,P8_6_10,p8_6_10,"0,1"
+Pregunta P8.6.11 Vea la Tarjeta 8. ¿Cuáles acciones podría realizar para atender sus preocupaciones financieras? - OTRA ACCIÓN,1,C,P8_6_11,p8_6_11,"0,1"
+"Pregunta P9.1 Actualmente, ¿cuál considera que es su objetivo o meta financiera más importante a cumplir?",2,C,P9_1,p9_1,01...10
+Pregunta P9.2 ¿Cuál considera que es la mayor dificultad para cumplirla?,1,C,P9_2,p9_2,1...7
+"Pregunta P9.3.1 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de los apoyos del gobierno para personas adultas mayores?",1,C,P9_3_1,p9_3_1,"1,2"
+"Pregunta P9.3.2 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de su pensión, jubilación, AFORE o plan privado de retiro?",1,C,P9_3_2,p9_3_2,"1,2"
+"Pregunta P9.3.3 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de vender o rentar bienes o propiedades (vehículos, casas, ganado, etcétera)?",1,C,P9_3_3,p9_3_3,"1,2"
+"Pregunta P9.3.4 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de dinero que le dé su esposa(o) o pareja, hijas, hijos u otros familiares?",1,C,P9_3_4,p9_3_4,"1,2"
+"Pregunta P9.3.5 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de seguir trabajando?",1,C,P9_3_5,p9_3_5,"1,2"
+"Pregunta P9.3.6 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de ingresos por inversiones en bancos o instituciones financieras?",1,C,P9_3_6,p9_3_6,"1,2"
+"Pregunta P9.3.7 En su vejez, ¿piensa cubrir sus gastos con lo que reciba de otra fuente?",1,C,P9_3_7,p9_3_7,"1,2"
+Pregunta P10.1 ¿Ha oído hablar de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)?,1,C,P10_1,p10_1,"1,2"
+Pregunta P10.2 ¿Cuál es la actividad principal de la CONDUSEF?,1,C,P10_2,p10_2,"1,2,9"
+Pregunta P10.3 ¿Usted sabe que la CONDUSEF imparte cursos y diplomados gratuitos sobre educación financiera?,1,C,P10_3,p10_3,"1,2"
+"Pregunta P10.4.1 A usted, ¿le sería de utilidad algún curso o taller sobre el registro de sus ingresos y gastos?",1,C,P10_4_1,p10_4_1,"1,2"
+"Pregunta P10.4.2 A usted, ¿le sería de utilidad algún curso o taller sobre manejo responsable de créditos?",1,C,P10_4_2,p10_4_2,"1,2"
+"Pregunta P10.4.3 A usted, ¿le sería de utilidad algún curso o taller sobre gastos “hormiga” (gastos pequeños que pueden afectar su economía)?",1,C,P10_4_3,p10_4_3,"1,2"
+"Pregunta P10.4.4 A usted, ¿le sería de utilidad algún curso o taller sobre importancia del ahorro?",1,C,P10_4_4,p10_4_4,"1,2"
+"Pregunta P10.4.5 A usted, ¿le sería de utilidad algún curso o taller sobre finanzas personales?",1,C,P10_4_5,p10_4_5,"1,2"
+"Pregunta P10.4.6 A usted, ¿le sería de utilidad algún curso o taller sobre otro tema financiero?",1,C,P10_4_6,p10_4_6,"1,2"
+Número de unidad primaria de muestreo,7,C,UPM,,0100016...3260800
+Número de vivienda seleccionada,2,C,VIV_SEL,,01...24
+Número de hogar en la vivienda,1,C,HOGAR,,1...5
+Número de renglón,2,C,N_REN,,01...14
+Entidad,2,C,ENT,ent,01...32
+Municipio,3,C,MUN,,001...565
+Tamaño de localidad,1,C,TLOC,tloc,1...4
+Región,1,C,REGION,region,1...4
+Pregunta P3.4 (NOMBRE) es hombre (NOMBRE) es mujer,1,C,SEXO,sexo,"1,2"
+Nivel de bienestar,1,C,NIV_BIENES,niv_bienes,1...4
+Ingreso mensual por trabajo,6,C,INGRESO_M,,000000...421400
+Niveles de estrés financiero,1,C,NIV_ESTRES,niv_estres,1...3
+Salario mínimo por entidad,1,C,SALARIO_ENT,salario_ent,"1,2"
+Ingreso mensual resto del país,1,C,SAL_MIN_RP,sal_min_rp,1...5
+Ingreso mensual zona fronteriza,1,C,SAL_MIN_ZF,sal_min_zf,1...5
+Confianza financiera,1,C,CONF_FINAN,conf_finan,"1,2"
+Grado de control,1,C,GRA_CONTROL,gra_control,"1,2"
+Orientación hacia el futuro,1,C,ORIEN_FUT,orien_fut,"1,2"
+Impulsividad,1,C,IMPULSIVID,impulsivid,"1,2"
+Orientación hacia la acción,1,C,ORIEN_ACCI,orien_acci,"1,2"
+Optimismo,1,C,OPTIMISMO,optimismo,"1,2"
+Gastos versus Ahorro,1,C,GTOS_AHORR,gtos_ahorr,"1,2"
+Dependientes económicos,2,C,DEPEN_SUM,,00...15
+Condición de dependientes económico,1,C,DEP_ECO,dep_eco,1...3
+Factor de expansión,6,C,FAC_ELE,,126...364007
+Unidad primaria de muestreo de diseño,5,C,UPM_DIS,,00001...02918
+Estrato de diseño,4,C,EST_DIS,,0001...0277

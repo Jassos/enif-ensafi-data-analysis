@@ -1,0 +1,56 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Llave de identificación del hogar,10,C,LLAVEHOG,,0100016011...3260800201
+Llave de identificación de la vivienda,9,C,LLAVEVIV,,010001601...326080020
+"Pregunta P4.1.1 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero de programas de apoyos del gobierno (Pensión para el Bienestar de las Personas Adultas Mayores, Jóvenes Construyendo el futuro, becas para estudiar, etcétera)?",1,C,P4_1_1,p4_1_1,"1,2,9"
+"Pregunta P4.1.2 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero por jubilación o pensión?",1,C,P4_1_2,p4_1_2,"1,2,9"
+"Pregunta P4.1.3 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero de familiares o personas conocidas que viven en el país?",1,C,P4_1_3,p4_1_3,"1,2,9"
+"Pregunta P4.1.4 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero de familiares o personas conocidas que viven fuera del país?",1,C,P4_1_4,p4_1_4,"1,2,9"
+"Pregunta P4.1.5 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero por el alquiler de algún bien (placas para taxi, automóvil, etcétera)?",1,C,P4_1_5,p4_1_5,"1,2,9"
+"Pregunta P4.1.6 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero por la renta de alguna propiedad (casa, edificio, local, terreno, tierra de cultivo, etcétera)?",1,C,P4_1_6,p4_1_6,"1,2,9"
+"Pregunta P4.1.7 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero por retiro de intereses bancarios?",1,C,P4_1_7,p4_1_7,"1,2,9"
+"Pregunta P4.1.8 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero por venta de algún bien (casa, joyas, vehículos, maquinaria, animales, electrodomésticos, etcétera)?",1,C,P4_1_8,p4_1_8,"1,2,9"
+"Pregunta P4.1.9 Durante los últimos tres meses, ¿alguna de las personas de este hogar recibió dinero de utilidades o ganancias por ser socia(o) o accionista de un negocio?",1,C,P4_1_9,p4_1_9,"1,2,9"
+"Pregunta P4.2 ¿Cuál es el ingreso total mensual del hogar considerando a todas las personas que lo integran? Sume los ingresos por trabajo, propinas, jubilación o pensión, dinero enviado por familiares, personas conocidas y de programas sociales",5,C,P4_2,p4_2,"00000...98000,99999"
+Pregunta P4.3 Ahora seleccione el rango del ingreso mensual total del hogar,2,C,P4_3,p4_3,01...11
+Pregunta FILTRO.S4.1 ¿La persona informante pertenece a un hogar unipersonal?,1,C,FILTRO_S4_1,filtro_s4_1,"1,2"
+Pregunta P4.4.1 ¿Usted o alguien de su hogar tiene alguna cuenta o tarjeta de banco o de institución financiera?,1,C,P4_4_1,p4_4_1,"1,2,9"
+Pregunta P4.4.2 ¿Usted o alguien de su hogar tiene cuenta de ahorro para el retiro o AFORE?,1,C,P4_4_2,p4_4_2,"1,2,9"
+Pregunta P4.5.1 ¿Usted o alguien de su hogar tiene tarjeta de crédito departamental o de tienda de autoservicio?,1,C,P4_5_1,p4_5_1,"1,2,9"
+Pregunta P4.5.2 ¿Usted o alguien de su hogar tiene tarjeta o crédito de banco o personal?,1,C,P4_5_2,p4_5_2,"1,2,9"
+Pregunta P4.5.3 ¿Usted o alguien de su hogar tiene crédito automotriz?,1,C,P4_5_3,p4_5_3,"1,2,9"
+"Pregunta P4.5.4 ¿Usted o alguien de su hogar tiene crédito de vivienda como INFONAVIT, FOVISSSTE, banco u otra institución?",1,C,P4_5_4,p4_5_4,"1,2,9"
+Pregunta P4.6.1 ¿Usted o alguien de su hogar acostumbra ahorrar en una cuenta de banco o de institución financiera?,1,C,P4_6_1,p4_6_1,"1,2,9"
+Pregunta P4.6.2 ¿Usted o alguien de su hogar acostumbra ahorrar en una cuenta de ahorro para el retiro o AFORE?,1,C,P4_6_2,p4_6_2,"1,2,9"
+Pregunta P4.6.3 ¿Usted o alguien de su hogar acostumbra ahorrar en tandas o cajas de ahorro?,1,C,P4_6_3,p4_6_3,"1,2,9"
+Pregunta P4.6.4 ¿Usted o alguien de su hogar acostumbra ahorrar con familiares o amistades?,1,C,P4_6_4,p4_6_4,"1,2,9"
+Pregunta P4.6.5 ¿Usted o alguien de su hogar acostumbra ahorrar dinero en su casa?,1,C,P4_6_5,p4_6_5,"1,2,9"
+"Pregunta P4.7.1 ¿Usted o alguien de su hogar tiene deuda  en una tarjeta o crédito de banco, de institución financiera o de tienda departamental?",1,C,P4_7_1,p4_7_1,"1,2,9"
+Pregunta P4.8.1 ¿El mes pasado se atrasaron en el pago de esta deuda?,1,C,P4_8_1,p4_8_1,"1,2,9"
+"Pregunta P4.7.2 ¿Usted o alguien de su hogar tiene deuda en una caja de ahorro, con familiares o amistades?",1,C,P4_7_2,p4_7_2,"1,2,9"
+Pregunta P4.8.2 ¿El mes pasado se atrasaron en el pago de esta deuda?,1,C,P4_8_2,p4_8_2,"1,2,9"
+Pregunta P4.7.3 ¿Usted o alguien de su hogar tiene deuda en una casa de empeño?,1,C,P4_7_3,p4_7_3,"1,2,9"
+Pregunta P4.8.3 ¿El mes pasado se atrasaron en el pago de esta deuda?,1,C,P4_8_3,p4_8_3,"1,2,9"
+Pregunta P4.7.4 ¿Usted o alguien de su hogar tiene deuda con prestamistas o agiotistas?,1,C,P4_7_4,p4_7_4,"1,2,9"
+Pregunta P4.8.4 ¿El mes pasado se atrasaron en el pago de esta deuda?,1,C,P4_8_4,p4_8_4,"1,2,9"
+"Pregunta P4.9.1 En su hogar, principalmente, ¿quién decide qué se compra en mandado o alimentación?",1,C,P4_9_1,p4_9_1,"1...6,9"
+"Pregunta P4.9.2 En su hogar, principalmente, ¿quién decide si se compran muebles, electrodomésticos o electrónicos?",1,C,P4_9_2,p4_9_2,"1...6,9"
+"Pregunta P4.9.3 En su hogar, principalmente, ¿quién decide cómo se ahorra o invierte el dinero?",1,C,P4_9_3,p4_9_3,"1...6,9"
+"Pregunta P4.9.4 En su hogar, principalmente, ¿quién decide los gastos para educación o si se estudia?",1,C,P4_9_4,p4_9_4,"1...6,9"
+"Pregunta P4.9.5 En su hogar, principalmente, ¿quién decide sobre la compraventa de alguna propiedad o bien?",1,C,P4_9_5,p4_9_5,"1...6,9"
+"Pregunta P4.9.6 En su hogar, principalmente, ¿quién decide si se gasta en salud?",1,C,P4_9_6,p4_9_6,"1...6,9"
+"Pregunta P4.10.1 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para la comida diaria de las personas que integran el hogar?",1,C,P4_10_1,p4_10_1,"1,2,9"
+"Pregunta P4.10.2 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para darle mantenimiento a la casa o pagar la renta o crédito de vivienda?",1,C,P4_10_2,p4_10_2,"1,2,9"
+"Pregunta P4.10.3 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para comprar ropa y calzado?",1,C,P4_10_3,p4_10_3,"1,2,9"
+"Pregunta P4.10.4 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para pagar gastos de transporte (gasolina, pasajes de camiones o taxis, etcétera)?",1,C,P4_10_4,p4_10_4,"1,2,9"
+"Pregunta P4.10.5 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para pagar medicinas o atención médica requerida?",1,C,P4_10_5,p4_10_5,"1,2,9"
+"Pregunta P4.10.6 En los últimos tres meses, ¿en su hogar tuvieron dinero suficiente para entretenimiento o diversión como ir al cine, al teatro o ir al parque?",1,C,P4_10_6,p4_10_6,"1,2,9"
+Número de unidad primaria de muestreo,7,C,UPM,,0100016...3260800
+Número de vivienda seleccionada,2,C,VIV_SEL,,01...24
+Número de hogar de la vivienda,1,C,HOGAR,,1...5
+Entidad,2,C,ENT,ent,01...32
+Municipio,3,C,MUN,,001...565
+Tamaño de localidad,1,C,TLOC,tloc,1...4
+Región,1,C,REGION,region,1...4
+Factor de expansión de hogar,5,C,FAC_HOG,,126...72801
+Upm de diseño muestral,5,C,UPM_DIS,,00001...02918
+Estrato de diseño muestral,4,C,EST_DIS,,0001...0277

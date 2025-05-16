@@ -1,0 +1,37 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Llave de identificación de la vivienda,9,C,LLAVEVIV,,010001601...326080020
+"Pregunta P1.1 En esta vivienda, ¿cuántos cuartos se usan para dormir, sin contar pasillos?",2,C,P1_1,,01...09
+Pregunta P1.2 ¿Cuántos cuartos tiene en total esta vivienda contando la cocina? (No cuente pasillos ni baños),2,C,P1_2,,01...18
+Pregunta P1.3 ¿Cuántos baños completos tiene esta vivienda con sanitario y regadera?,2,C,P1_3,,00...08
+Pregunta P1.4.01 ¿En esta vivienda tienen refrigerador?,1,C,P1_4_01,p1_4_01,"1,2"
+Pregunta P1.4.02 ¿En esta vivienda tienen lavadora?,1,C,P1_4_02,p1_4_02,"1,2"
+Pregunta P1.4.03 ¿En esta vivienda tienen horno de microondas?,1,C,P1_4_03,p1_4_03,"1,2"
+Pregunta P1.4.04 ¿En esta vivienda tienen automóvil o camioneta?,1,C,P1_4_04,p1_4_04,"1,2"
+"Pregunta P1.4.05 ¿En esta vivienda tienen computadora, laptop o tablet?",1,C,P1_4_05,p1_4_05,"1,2"
+Pregunta P1.4.06 ¿En esta vivienda tienen línea telefónica fija?,1,C,P1_4_06,p1_4_06,"1,2"
+Pregunta P1.4.07 ¿En esta vivienda tienen teléfono celular?,1,C,P1_4_07,p1_4_07,"1,2"
+Pregunta P1.4.08 ¿En esta vivienda tienen internet?,1,C,P1_4_08,p1_4_08,"1,2"
+Pregunta P1.4.09 ¿En esta vivienda tienen servicio de televisión de paga (cable o satelital)?,1,C,P1_4_09,p1_4_09,"1,2"
+"Pregunta P1.4.10 ¿En esta vivienda tienen servicio de películas, música o vídeos de paga por internet (Netflix, Clarovideo, Spotify, etcétera)?",1,C,P1_4_10,p1_4_10,"1,2"
+Pregunta P1.5 ¿En esta vivienda...?,1,C,P1_5,p1_5,"1...5,9"
+Pregunta P1.6 ¿Esta vivienda cuenta con escrituras o título de propiedad...?,1,C,P1_6,p1_6,"1...3,9"
+Pregunta P1.7 ¿La persona dueña o propietaria de esta vivienda...?,1,C,P1_7,p1_7,"1...6,9"
+Pregunta P1.8.1 ¿Para financiar la compra o construcción de esta vivienda obtuvieron un crédito de vivienda con INFONAVIT o FOVISSTE?,1,C,P1_8_1,p1_8_1,"1,2,9"
+Pregunta P1.8.2 ¿Para financiar la compra o construcción de esta vivienda obtuvieron un crédito de vivienda con un banco o institución financiera?,1,C,P1_8_2,p1_8_2,"1,2,9"
+"Pregunta P1.8.3 ¿Para financiar la compra o construcción de esta vivienda obtuvieron un préstamo de familiares, amistades, prestamistas o agiotistas?",1,C,P1_8_3,p1_8_3,"1,2,9"
+"Pregunta P1.8.4 ¿Para financiar la compra o construcción de esta vivienda obtuvieron un apoyo o subsidio del gobierno (federal, estatal o municipal)?",1,C,P1_8_4,p1_8_4,"1,2,9"
+Pregunta P1.8.5 ¿Para financiar la compra o construcción de esta vivienda usaron sus ahorros o recursos propios?,1,C,P1_8_5,p1_8_5,"1,2,9"
+Pregunta P1.9 ¿Esta vivienda...?,1,C,P1_9,p1_9,"1...3,9"
+"Pregunta P1.10 De octubre de 2022 a la fecha, ¿han tenido algún atraso en los pagos del crédito (o préstamo) de esta vivienda?",1,C,P1_10,p1_10,"1,2,9"
+"Pregunta P2.1 ¿Cuántas personas viven normalmente en esta vivienda contando a las niñas, niños, bebés, personas adultas mayores y personas con discapacidad? Incluya al personal doméstico que vive aquí",2,C,P2_1,,01...19
+Pregunta P2.2 ¿Todas las personas que viven en esta vivienda comparten un mismo gasto para comer?,1,C,P2_2,p2_2,"1,2"
+"Pregunta P2.3 Entonces, ¿cuántos hogares o grupos de personas tienen gasto separado para comer contando el de usted?",2,C,P2_3,,02...05
+Número de unidad primaria de muestreo,7,C,UPM,,0100016...3260800
+Número de vivienda seleccionada,2,C,VIV_SEL,,01...24
+Entidad,2,C,ENT,ent,01...32
+Municipio,3,C,MUN,,001...565
+Tamaño de localidad,1,C,TLOC,tloc,1...4
+Región,1,C,REGION,region,1...4
+Factor de expansión de vivienda,5,C,FAC_VIV,,125...72801
+Upm de diseño muestral,5,C,UPM_DIS,,00001...02918
+Estrato de diseño muestral,4,C,EST_DIS,,0001...0277
